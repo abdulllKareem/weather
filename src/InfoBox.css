@@ -1,0 +1,15 @@
+.InfoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+    height: 50vh; /* Adjust this value based on your layout */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

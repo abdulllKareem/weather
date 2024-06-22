@@ -1,11 +1,19 @@
-/* InfoBox.css */
+/* Reserve space for the error message */
+.error-message {
+    height: 20px; /* Adjust this height based on your layout */
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* InfoBox and cardContainer remain the same */
 .InfoBox {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-bottom: 25px;
-    height: 50vh; /* Ensure this height is appropriate for all screen sizes */
+    height: 50vh; /* Adjust this value based on your layout */
 }
 
 .cardContainer {
@@ -13,18 +21,4 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    flex-wrap: wrap; /* Allow wrapping if cards overflow */
-}
-
-/* Adjust for responsive design */
-@media (max-width: 768px) {
-    .InfoBox {
-        height: auto; /* Adjust height for smaller screens */
-        padding: 20px; /* Add padding if needed */
-    }
-
-    .cardContainer {
-        flex-direction: column; /* Stack cards vertically on smaller screens */
-        margin-bottom: 10px; /* Reduce margin for smaller screens */
-    }
 }
